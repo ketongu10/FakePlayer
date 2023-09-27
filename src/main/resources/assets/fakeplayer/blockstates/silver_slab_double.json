@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=default": { "model": "fakeplayer:silver_slab_double" }
+    }
+}

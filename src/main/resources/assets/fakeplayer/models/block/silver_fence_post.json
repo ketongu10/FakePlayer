@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "fakeplayer:blocks/silver_block"
+    }
+}

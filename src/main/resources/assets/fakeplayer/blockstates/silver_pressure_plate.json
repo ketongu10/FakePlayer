@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "fakeplayer:silver_pressure_plate_up" },
+        "powered=true": { "model": "fakeplayer:silver_pressure_plate_down" }
+    }
+}

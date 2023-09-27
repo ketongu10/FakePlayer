@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "III",
+        "IAI",
+        "III"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "fakeplayer:obsidian_ingot"
+        },
+        
+        "A":
+        {
+            "item": "minecraft:apple"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "fakeplayer:dark_apple",
+        "count": 1
+    }
+}

@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "fakeplayer:blocks/lemon_crop_block"
+   }
+}

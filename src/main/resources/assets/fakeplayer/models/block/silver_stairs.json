@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "fakeplayer:blocks/silver_block",
+        "top": "fakeplayer:blocks/silver_block",
+        "side": "fakeplayer:blocks/silver_block"
+    }
+}

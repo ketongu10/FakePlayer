@@ -1,0 +1,29 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "fakeplayer:silver_chest"
+        },
+    
+        "facing=south": 
+        { 
+            "model": "fakeplayer:silver_chest"
+        },
+    
+        "facing=east": 
+        { 
+            "model": "fakeplayer:silver_chest","y":270
+        },
+    
+        "facing=west": 
+        { 
+            "model": "fakeplayer:silver_chest","y":90
+        },
+    
+        "facing=north": 
+        { 
+            "model": "fakeplayer:silver_chest","y":180
+        }
+    }
+}
