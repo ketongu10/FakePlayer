@@ -28,7 +28,7 @@ import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.NAME, dependencies="required-after:ebwizardry")
+@Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.NAME)
 public class FakePlayer
 {
 	public static SimpleNetworkWrapper network;
@@ -78,4 +78,6 @@ public class FakePlayer
 	{
 		RegistryHandler.serverRegistries(event);
 	}
+
+
 }

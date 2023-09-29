@@ -4,6 +4,7 @@ import fakeplayer.ketongu10.FakePlayer;
 import fakeplayer.ketongu10.commands.autopilot.CommandAutopilot;
 import fakeplayer.ketongu10.commands.forceToMove.CommandForceToMove;
 import fakeplayer.ketongu10.commands.teleport.CommandTeleportDim;
+import fakeplayer.ketongu10.commands.video.CommandVideoSaving;
 import fakeplayer.ketongu10.objects.blocks.silver_chest.RenderSilverChest;
 import fakeplayer.ketongu10.recipes.CraftingRecipes;
 import fakeplayer.ketongu10.recipes.SmeltingRecipes;
@@ -111,5 +112,7 @@ public class RegistryHandler
 		event.registerServerCommand(new CommandTeleportDim());
 		event.registerServerCommand(new CommandAutopilot());
 		event.registerServerCommand(new CommandForceToMove());
+		event.registerServerCommand(new CommandVideoSaving());
+
 	}
 }

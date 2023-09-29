@@ -24,7 +24,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '2.0'
+version = '1.0'
 group = 'com.yourname.loh' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'fakeplayer'
 
@@ -101,6 +101,8 @@ dependencies {
     implementation fg.deobf("curse.maven:epic-siege-mod-229449:${esm_cf_fileid}")
     implementation fg.deobf("curse.maven:ancient-spellcraft-358124:${as_cf_fileid}")
     implementation fg.deobf("curse.maven:ancient-warfare-2-224602:${aw2_cf_fileid}")
+    // https://mavenlibs.com/maven/dependency/net.sf.py4j/py4j
+    implementation 'net.sf.py4j:py4j:0.10.9.7'
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"

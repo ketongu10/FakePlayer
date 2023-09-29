@@ -1,2 +1,3 @@
 version 1.0
-    first success in chunk forceloading, added villager-chunkloader
+    tested making screenshots to the chosen dir
+    tried to drop screenshot as txt -- FAILED
